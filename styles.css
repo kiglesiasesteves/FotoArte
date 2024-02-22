@@ -1,39 +1,42 @@
 .Cabecera{
   width:125%;
-  border-bottom:5px solid rgb(252, 119, 185);
-  border-top: 5px solid rgb(252, 119, 185);
+  border-bottom:5px solid white;
+
 
 }
+body {
+  font-family:"Times New Roman", Times, Arial;
+    margin: 0;
+    padding: 0;
+
+    background-color: #c9b5a3;
+  }
 
 nav ul {
   list-style-type: none;
   padding: 20px;
   margin-left:420px;
+
 }
 
-#boton {
+nav ul li {
+background-color: white;
   padding-top:25px;
   display: inline;
  align-content:center;
   width:150px;
-  padding: 10px 60px; 
+  padding: 10px 60px;
 margin-top:60px;
-background-color: #f5d1e3 ; 
   border: 1px solid black;
   border-radius: 10px;
 }
 
 #boton:hover {
-  background-color: rgb(240, 163, 202) ;
+  background-color: #c9b5a3;
 }
 body {
-  font-family:"Times New Roman", Times, Arial, sans-serif;
-  font-weight: italic;
-  margin: 0;
-  padding: 0;
-  background-color: #f5e6ed;
     width: 80%;
-  
+
 }
 table{
   padding-top:50px;
@@ -51,19 +54,25 @@ th{
   letter-spacing: 2px; /* Espaciado entre letras */
 }
 th{
-  background-color: rgb(240, 163, 202);
+  background-color: white;
   border-radius: 15px;
+    border:4px solid #96795f ;
+  font-style:#96795f;
+
 
 }
 tr{
+  border:2px solid #96795f ;
+
   border:1px solid black;
   align-content: center;
   padding: 20px;
   width: fit-content;
-  background-color: #f5d1e3 ; 
+  background-color: white;
+
 }
 td{
-border:2px solid rgb(240, 163, 202) ;
+border:2px solid #96795f ;
  border-radius: 15px;
 }
 .titulo{
@@ -83,5 +92,27 @@ border:2px solid rgb(240, 163, 202) ;
 }
 .datos{
   padding:20px;
+
+}
+
+footer{
+    border-top:5px solid white;
+
+  width:1865px;
+background-color: #96795f;
+color: white;
+padding: 20px;
+display: right;
+align-items: center;
+text-align:center;
+
+}
+
+
+.social-icons img {
+display:inline-block;
+
+width: 30px;
+  margin: 0 5px;
 
 }
