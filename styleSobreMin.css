@@ -1,0 +1,49 @@
+  body {
+            font-family:  'Grandstander', cursive, 'Times New Roman', Times, serif, sans-serif;
+            color:grey;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(219, 211, 213);
+        }
+        .name{
+            color:black;
+            font-size: 40PX;
+        }
+        .descripcion_principal{
+            width:800px;
+            margin-left:10%;
+        }
+        .name{
+            text-align:center;
+
+        }
+
+        main{
+display:block;
+float:left;
+width:800px;
+margin-left: 5%;
+        }
+
+      aside{
+float:right; 
+display:block;
+width:800px;
+margin-left:5%;
+margin-right: 5%;
+margin-bottom: 10%;
+
+      }
+      .section-title{
+    color:rgb(58, 58, 58);
+text-transform: uppercase;
+font-weight: bold;
+font-size:30px;
+}
+.bullet-title{
+    color:rgb(156, 155, 155);
+    text-transform: uppercase;
+font-weight: bold;
+
+
+}
