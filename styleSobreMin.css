@@ -1,16 +1,80 @@
-  body {
-            font-family:  'Grandstander', cursive, 'Times New Roman', Times, serif, sans-serif;
-            color:grey;
-            margin: 0;
-            padding: 0;
-            background-color:black;
-        }
-   
-.name{
-    margin-top: -10%;
-    margin-bottom: 10%;
+body {
+    font-family:   cursive, 'Times New Roman', Times, serif, sans-serif;
+    font-size:25px;
+    color:rgb(92, 92, 92);
+    margin: 0;
+    padding: 0;
+    background-color:black;
 }
-        main{
+
+        body.curriculum {
+            background-color: black;
+        }
+
+        .container {
+            margin:50px;
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 70px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #e7e5e6;
+            overflow: hidden;
+        }
+
+        .summary {
+            margin-bottom: 40px;
+        }
+
+        .summary h1 {
+            padding-bottom: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .summary img {
+            float: right;
+        }
+
+        .datos p {
+            font-size: 0.75em;
+            font-weight: bold;
+            color: grey;
+        }
+
+       .sociales{
+        padding-top: 250px;
+       }
+
+        .details h2 {
+            color: #3a3636;
+        }
+
+        .details h3 {
+            color: gray;
+        }
+
+        .summary h1,
+        .summary h2,
+        .summary h3 {
+            text-transform: uppercase;
+        }
+
+        .details ul {
+            padding: 5px;
+            margin-left: 20px;
+        }
+
+        .details li {
+            padding: 3px;
+        }
+
+        .experiencia {
+            padding-top: 5px;
+        }
+
+
+main{
 display:block;
 float:center;
 margin:1%;
@@ -19,30 +83,25 @@ margin-right: 30%;
 padding:5%;
 background-color: rgb(219, 211, 213);
 
-        }
+}
 
-  
-      .section-title{
-    color:rgb(58, 58, 58);
+.section-title{
+color:rgb(58, 58, 58);
 text-transform: uppercase;
 font-weight: bold;
-font-size:30px;
+font-size:35px;
 }
 .bullet-title{
-    color:rgb(156, 155, 155);
-    text-transform: uppercase;
+color:rgb(156, 155, 155);
+text-transform: uppercase;
 font-weight: bold;
-
-.container{
-    margin-top: 5%;
-}
-}
-.name{
-    color:black;
-    font-size: 40PX;
 }
 
-.name{
-    text-align:center;
-
+.linea {
+width: 90%;
+height: 5px;
+background-color: black;
+position: relative;
+bottom: -1600px;
+margin-left: 20px;
 }
