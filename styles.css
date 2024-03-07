@@ -1,14 +1,13 @@
-.Cabecera{
+/*.Cabecera{
   width:125%;
   border-bottom:5px solid white;
 
 
 }
 body {
-  font-family:'Grandstander', cursive,'Times New Roman', Times, Arial;    margin: 0;
+  font-family:'Times New Roman', Times, Arial;    margin: 0;
     padding: 0;
 
-    background-color: #c9b5a3;
   }
 
 nav ul {
@@ -48,10 +47,11 @@ th{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: #000000; /* Color de texto */
-  text-transform: uppercase; /* Convertir a mayúsculas */
-  letter-spacing: 2px; /* Espaciado entre letras */
+  color: #000000; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
 }
+
 th{
   background-color: white;
   border-radius: 15px;
@@ -80,8 +80,8 @@ border:2px solid #96795f ;
   font-style: italic;
   font-size: 30px;
   padding:30px;
-  text-align: center; /* Para centrar el texto */
-  margin: 0 auto; /
+  text-align: center; 
+  margin: 0 auto; 
 
 }
 .resumen{
@@ -95,7 +95,6 @@ border:2px solid #96795f ;
 }
 
 footer{
-    border-top:5px solid white;
   width:1865px;
 background-color: #96795f;
 color: white;
@@ -113,4 +112,184 @@ display:inline-block;
 width: 30px;
   margin: 0 5px;
 
+}
+*/
+body {
+  width: 99.5%;
+  margin: 0;
+  padding: 0;
+  background-color: #c9b5a3;
+
+}
+table{
+  align-content: center;
+  width: 1600px;
+  font-size: 25px;
+  text-align: center;
+}
+.Cabecera {
+  width: 100%;
+  border-bottom: 5px solid white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav ul li {
+  font-size: 25px;
+  background-color: white;
+  padding-top: 25px;
+  display: inline;
+  align-content: center;
+  width: 250px;
+  padding: 10px 60px;
+  margin-top: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#boton:hover {
+  background-color: #c9b5a3;
+}
+
+table {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: white;
+  border-radius: 15px;
+  border: 4px solid #96795f;
+}
+
+tr {
+  border: 1px solid black;
+  align-content: center;
+  padding: 20px;
+  width: fit-content;
+  background-color: white;
+}
+
+td {
+  border: 2px solid #96795f;
+  border-radius: 15px;
+}
+
+.titulo {
+  width: 200px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resumen {
+  padding: 20px;
+  width: 400px;
+}
+
+.datos {
+  padding: 20px;
+}
+
+footer {
+  width: 98.5%;
+  border-top: 5px solid white;
+  background-color: #96795f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 5px;
+}
+/* CSS dedicado a Series*/
+
+.serie img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.serie img:hover {
+  cursor: pointer;
+}
+
+
+.serie img.blur:hover {
+  filter: blur(5px);
+}
+
+
+.serie img.grayscale:hover {
+  filter: grayscale(100%);
+}
+
+
+.serie img.saturate:hover {
+  filter: saturate(250%);
+}
+
+
+.serie img.opacity:hover {
+  opacity: 0.5;
+}
+/* Parte de Juegos*/
+
+.contenedor {
+  overflow: hidden;
+}
+
+.imagen_agrandada:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.imagen_rotacion1:hover {
+  -webkit-transform: rotate(360deg);transform:
+    rotate(360deg); 
+    transition: transform 600ms ease-in-out;
+
+}
+
+.imagen_rotacion2:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transition: transform 600ms ease-in-out;
+
+}
+
+.imagen_combinacion:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #d49567;
+  -webkit-box-shadow: 0px 0px 15px 15px #d49567;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: transform 600ms ease-in-out;
 }
