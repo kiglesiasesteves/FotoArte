@@ -115,7 +115,7 @@ width: 30px;
 }
 */
 body {
-  width: 99.5%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #c9b5a3;
@@ -210,7 +210,7 @@ td {
 }
 
 footer {
-  width: 98.5%;
+  width: 97.9%;
   border-top: 5px solid white;
   background-color: #96795f;
   color: white;
@@ -266,6 +266,8 @@ footer {
 .imagen_agrandada:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+  transition: transform 600ms ease-in-out;
+
 }
 
 .imagen_rotacion1:hover {
